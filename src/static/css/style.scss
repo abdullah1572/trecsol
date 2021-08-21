@@ -6,6 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+/* variables */
+$black: #000000;
+$light-white: #ffffff;
+$border-grey: #707070;
+$buttons: #037DD6;
+
+
 html{
   scroll-behavior: smooth;
 }
@@ -46,7 +53,7 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0!important;
 }
 
-.landing-nft {
+.landing-nft,.newtometa,.createpassword,.recoveryphrase,.securewallet,.seceretbackup,.confirm-secret{
 	background-color: #ffffff;
 	// min-height: 100vh;
 	display: flex;
@@ -56,66 +63,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size: calc(10px + 2vmin);
 	color: white;
 }
-.newtometa{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-.createpassword{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-.recoveryphrase{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-.securewallet{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-.seceretbackup{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-.confirm-secret{
-	background-color: #ffffff;
-	// min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	// align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
+
 .headinghp {
 	h1 {
 		font-family: 'Montserrat';
