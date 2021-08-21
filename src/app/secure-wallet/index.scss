@@ -1,0 +1,256 @@
+/* landing NFT Banner */
+.securewallet {
+	.header-section {
+		position: relative;
+		width: 100%;
+        min-height: 100vh;
+        .main-head{
+            .image{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                padding-top: 12px;
+                p{
+                    font-size: 27px;
+                    color: #000000;
+                    font-weight: bold;
+                    font-family: 'Segoe UI';
+                    padding-left: 20px;
+                }
+            }
+            .lower-cont{
+                .banner-video{
+                    width: 703px;
+                    border-radius: 12px;
+                }
+                .lower-c{
+                    text-decoration: none;
+                }
+                p{
+                    font-size: 18px;
+                    color: #000000;
+                    font-family: 'Segoe UI';
+                    padding-bottom: 20px;
+                }
+                h5{
+                    font-size: 28px;
+                    color: #7B7878;
+                    padding-top: 26px;
+                    font-family: 'Segoe UI';
+                    padding-bottom: 4px;
+                }
+                h1{
+                    font-size: 44px;
+                    color: #000000;
+                    font-family: 'Segoe UI';
+                    padding-bottom: 20px;
+                }
+                button{
+                    width: 295px;
+                    height: 68px;
+                    // padding: 11px 68px;
+                    font-size: 27px;
+                    border-radius: 14px;
+                    background-color: #037DD6;
+                    outline: none;
+                    box-shadow: none;
+                    font-family: 'Segoe UI';
+                    color: #ffffff;
+                    border: none;
+                    margin-top: 20px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid #037DD6;
+                        color: #037DD6;
+                    }
+                }
+            }
+            .border-r{
+                background: transparent;
+                border: 1px solid #707070;
+                border-radius: 15px;
+                padding: 22px 25px 0px;
+                margin-top: 30px;
+                h4{
+                    color: #000000;
+                    font-size: 23px;
+                    font-weight: 600;
+                    font-family: 'Segoe UI';
+                    padding-bottom: 5px;
+                }
+                p{
+                    font-size: 18px;
+                    color: #858282;
+                    font-family: 'Segoe UI';
+                    font-weight: 600;
+                    padding-bottom: 20px;
+                }
+            }
+           
+        }
+		
+	}
+}
+@media (max-width: 1680px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .border-r{
+                    padding: 22px 15px 0px;
+                    margin-top: 7px;
+                }
+                .lower-cont{
+                    .banner-video{
+                        object-fit: cover;
+                        width: 607px;
+                        height: 382px;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .banner-video{
+                        width: 578px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1500px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h5{
+                        padding-top: 50px;
+                        padding-bottom: 35px;
+                    }
+                    h1{
+                        padding-bottom: 34px;
+                    }
+                    p{
+                        font-size: 16px;
+                        padding-bottom: 33px;
+                    }
+                    .banner-video{
+                        width: 519px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1400px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    p{
+                        font-size: 16px;
+                    }
+                    .banner-video{
+                        width: 488px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h5{
+                        padding-top: 26px;
+                        padding-bottom: 4px;
+                    }
+                    h1{
+                        padding-bottom: 20px;
+                    }
+                    p{
+                        font-size: 16px;
+                        padding-bottom: 20px;
+                    }
+                    .banner-video{
+                        width: 586px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .border-r{
+                    margin-bottom: 60px;
+                }
+                .lower-cont{
+                    button{
+                        margin-bottom: 30px;
+                    }
+                    .form-group{
+                        input{
+                            width: 74%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+ @media (max-width: 600px) {
+    .securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h1{
+                        font-size: 36px;
+                    }
+                   .banner-video{
+                       width: 100%;
+                       height: unset;
+                   }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+	.securewallet {
+		.header-section {
+			
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.securewallet {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h1{
+                        font-size: 28px;
+                    }
+                    h5{
+                        font-size: 22px;
+                    }
+                   button{
+                       width: 263px;
+                   } 
+                }
+            }
+        }
+    }
+}

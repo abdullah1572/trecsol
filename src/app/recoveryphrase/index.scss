@@ -1,0 +1,241 @@
+/* landing NFT Banner */
+.recoveryphrase {
+	.header-section {
+		position: relative;
+		width: 100%;
+        min-height: 100vh;
+        .main-head{
+            .image{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                padding-top: 12px;
+                p{
+                    font-size: 27px;
+                    color: #000000;
+                    font-weight: bold;
+                    font-family: 'Segoe UI';
+                    padding-left: 20px;
+                }
+            }
+            .lower-cont{
+                .lower-c{
+                    text-decoration: none;
+                }
+                h5{
+                    font-size: 28px;
+                    color: #7B7878;
+                    padding-top: 20px;
+                    font-family: 'Segoe UI';
+                    padding-bottom: 20px;
+                }
+                h1{
+                    font-size: 35px;
+                    color: #000000;
+                    padding-bottom: 32px;
+                    font-family: 'Segoe UI';
+                    line-height: 44px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-family: 'Segoe UI';
+                    color: #000000;
+                }
+                .form-group{
+                    ::placeholder{
+                        font-size: 21px;
+                        color: #E4DCDC;
+                        font-family: 'Segoe UI';
+                    }
+                    label{
+                        font-size: 18px;
+                        color: #7B7878;
+                    }
+                    input{
+                        background: transparent;
+                        border: 1px solid #9C9D9E;
+                        border-radius: 18px;
+                        height: 58px;
+                        box-shadow: none;
+                        outline: none;
+                        width: 58%;
+                        padding-left: 20px;
+                        &:focus{
+                            border-color: #0AACFF;
+                        }
+                    }
+                    .form-check{
+                        display: flex!important;
+                        justify-content: start;
+                        align-items: center;
+                        padding-top: 15px;
+                        padding-bottom: 10px;
+                        input{
+                            width: 40px;
+                            height: 38px;
+                        }
+                        label{
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #7B7878;
+                            font-family: 'Segoe UI';
+                            padding-left: 40px;
+                            span{
+                                color: #0AB4FF;
+                                font-size: 24px;
+                                font-weight: 600;
+                                padding-left: 8px;
+                                font-family: 'Segoe UI';
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                button{
+                    width: 295px;
+                    height: 59px;
+                    // padding: 11px 68px;
+                    font-size: 27px;
+                    border-radius: 14px;
+                    background-color: #037DD6;
+                    outline: none;
+                    font-family: 'Segoe UI';
+                    box-shadow: none;
+                    color: #ffffff;
+                    border: none;
+                    margin-bottom: 33px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid #037DD6;
+                        color: #037DD6;
+                    }
+                }
+            }
+           
+        }
+		
+	}
+}
+@media (max-width: 1680px) {
+    .recoveryphrase {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 67%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .recoveryphrase {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 79%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .recoveryphrase {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .recoveryphrase {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 74%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+ @media (max-width: 600px) {
+    .recoveryphrase {
+		.header-section {
+            .main-head{
+                .image{
+                    justify-content: center;
+                }
+                .lower-cont{
+                    h1{
+                        font-size: 37px;
+                    }
+                    h5{
+                        font-size: 26px;
+                    }
+                    .form-group{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+	.recoveryphrase {
+		.header-section {
+			
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.recoveryphrase {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h1{
+                        font-size: 32px;
+                    }
+                    h5{
+                        font-size: 26px;
+                    }
+                    .form-group{
+                        .form-check{
+                            input{
+                                width: 30px;
+                            }
+                            label{
+                                font-size: 18px;
+                                span{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+/* landing NFT Banner */
+.landing-nft {
+	.header-section {
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		.main-head{
+			text-align: center;
+			padding-top: 154px;
+			img{
+				width: 100px;
+				height: 100px;
+			}
+			h1{
+				color: #000000;
+				font-size: 37px;
+				padding-top: 56px;
+				font-family: 'Segoe UI';
+				padding-bottom: 36px;
+			}
+			p{
+				color: #716C6C;
+				font-size: 25px;
+				font-family: 'Segoe UI';
+			}
+			button{
+				padding: 14px 98px;
+				font-size: 33px;
+				border-radius: 14px;
+				background-color: #037DD6;
+				outline: none;
+				box-shadow: none;
+				color: #ffffff;
+				font-family: 'Segoe UI';
+				margin-top: 38px;
+				border: none;
+				&:hover{
+					background-color: transparent;
+					border: 1px solid #037DD6;
+					color: #037DD6;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.landing-nft {
+		.header-section {
+			.main-head{
+				h1{
+					font-size: 34px;
+				}
+				p{
+					font-size: 22px;
+				}
+				button{
+					padding: 14px 70px;
+    				font-size: 28px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.landing-nft {
+		.header-section {
+			.main-head{
+				h1{
+					font-size: 30px;
+				}
+				p{
+					font-size: 20px;
+				}
+				button{
+					padding: 14px 58px;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.landing-nft {
+		.header-section {
+			.main-head{
+				h1{
+					font-size: 26px;
+				}
+				p{
+					font-size: 17px;
+				}
+				button{
+					padding: 14px 52px;
+					font-size: 21px;
+				}
+			}
+		}
+	}
+}

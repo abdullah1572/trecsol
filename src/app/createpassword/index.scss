@@ -1,0 +1,226 @@
+/* landing NFT Banner */
+.createpassword {
+	.header-section {
+		position: relative;
+		width: 100%;
+        min-height: 100vh;
+        .main-head{
+            .image{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                padding-top: 12px;
+                p{
+                    font-size: 27px;
+                    color: #000000;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    font-family: 'Segoe UI';
+                }
+            }
+            .lower-cont{
+                .lower-c{
+                    text-decoration: none;
+                }
+                h5{
+                    font-size: 28px;
+                    color: #7B7878;
+                    padding-top: 43px;
+                    padding-bottom: 22px;
+                    font-family: 'Segoe UI';
+                }
+                h1{
+                    font-size: 44px;
+                    color: #000000;
+                    padding-bottom: 58px;
+                    font-family: 'Segoe UI';
+                }
+                .form-group{
+                    label{
+                        font-size: 18px;
+                        color: #7B7878;
+                    }
+                    input{
+                        background: transparent;
+                        border: 1px solid #9C9D9E;
+                        border-radius: 18px;
+                        height: 58px;
+                        box-shadow: none;
+                        outline: none;
+                        width: 58%;
+                        padding-left: 20px;
+                        &:focus{
+                            border-color: #0AACFF;
+                        }
+                    }
+                    .form-check{
+                        display: flex!important;
+                        justify-content: start;
+                        align-items: center;
+                        padding-top: 44px;
+                        padding-bottom: 24px;
+                        input{
+                            width: 40px;
+                            height: 38px;
+                        }
+                        label{
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #7B7878;
+                            padding-left: 40px;
+                            font-family: 'Segoe UI';
+                            span{
+                                color: #0AB4FF;
+                                font-size: 24px;
+                                font-weight: 600;
+                                padding-left: 8px;
+                                cursor: pointer;
+                                font-family: 'Segoe UI';
+                            }
+                        }
+                    }
+                }
+                button{
+                    width: 295px;
+                    height: 59px;
+                    // padding: 11px 68px;
+                    font-size: 27px;
+                    font-family: 'Segoe UI';
+                    border-radius: 14px;
+                    background-color: #037DD6;
+                    outline: none;
+                    box-shadow: none;
+                    color: #ffffff;
+                    border: none;
+                    margin-bottom: 33px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid #037DD6;
+                        color: #037DD6;
+                    }
+                }
+            }
+           
+        }
+		
+	}
+}
+@media (max-width: 1680px) {
+    .createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 67%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 79%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    .form-group{
+                        input{
+                            width: 74%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+ @media (max-width: 600px) {
+    .createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h1{
+                        font-size: 37px;
+                    }
+                    h5{
+                        font-size: 26px;
+                    }
+                    .form-group{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+	.createpassword {
+		.header-section {
+			
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.createpassword {
+		.header-section {
+            .main-head{
+                .lower-cont{
+                    h1{
+                        font-size: 37px;
+                    }
+                    h5{
+                        font-size: 26px;
+                    }
+                    .form-group{
+                        .form-check{
+                            input{
+                                width: 30px;
+                            }
+                            label{
+                                font-size: 18px;
+                                span{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

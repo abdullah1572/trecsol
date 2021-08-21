@@ -1,0 +1,168 @@
+/* landing NFT Banner */
+.newtometa {
+	.header-section {
+		position: relative;
+		width: 100%;
+        min-height: 100vh;
+		.main-head{
+            .image{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                p{
+                    font-size: 27px;
+                    color: #000000;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    font-family: 'Segoe UI';
+                }
+            }
+           
+            .box-meta{
+                text-align: center;
+                border: 3px solid #BEBABA;
+                border-radius: 12px;
+                h4{
+                    color: #000000;
+                    font-size: 21px;
+                    padding-bottom: 16px;
+                    font-family: 'Segoe UI';
+                }
+                p{
+                    color: #959090;
+                    font-size: 17px;
+                    padding-bottom: 50px;
+                    font-family: 'Segoe UI';
+                }
+                img{
+                    padding-top: 32px;
+                    padding-bottom: 27px;
+                }
+                button{
+                    width: 295px;
+                    height: 59px;
+                    // padding: 11px 68px;
+                    font-size: 27px;
+                    border-radius: 14px;
+                    background-color: #037DD6;
+                    outline: none;
+                    box-shadow: none;
+                    color: #ffffff;
+                    font-family: 'Segoe UI';
+                    border: none;
+                    margin-bottom: 33px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid #037DD6;
+                        color: #037DD6;
+                    }
+                }
+            }
+            .response{
+                p{
+                    color: #959090;
+                    font-size: 17px;
+                    padding-bottom: 50px;
+                    font-family: 'Segoe UI';
+                }
+            }
+            h1{
+				color: #000000;
+				font-size: 37px;
+				padding-top: 101px;
+				padding-bottom: 36px;
+                font-family: 'Segoe UI';
+			}
+			padding-top: 12px;
+		}
+	}
+}
+@media (max-width: 1500px) {
+    .newtometa {
+		.header-section {
+			.main-head{
+                .response{
+                    p{
+                        color: #959090;
+                        font-size: 17px;
+                        padding-bottom: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+	.newtometa {
+		.header-section {
+			.main-head{
+                .box-meta{
+                    padding: 0px 10px;
+                    margin-bottom: 50px;
+                }
+				h1{
+					font-size: 34px;
+                    padding-top: 50px;
+				}
+				p{
+					font-size: 22px;
+				}
+				button{
+					padding: 14px 70px;
+    				font-size: 28px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.newtometa {
+		.header-section {
+			.main-head{
+                .box-meta{
+                    button{
+                        line-height: 15px;
+                        width: 253px;
+                        font-size: 21px;
+                    }
+                }
+				h1{
+					font-size: 30px;
+				}
+				p{
+					font-size: 20px;
+				}
+				button{
+					padding: 14px 17px;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.newtometa {
+		.header-section {
+			.main-head{
+                .box-meta{
+                    button{
+                        width: 208px;
+                    }
+                }
+				h1{
+					font-size: 26px;
+				}
+				p{
+					font-size: 17px;
+				}
+				button{
+					padding: 14px 0px;
+					font-size: 21px;
+				}
+			}
+		}
+	}
+}
